@@ -1,11 +1,10 @@
 {
   "name": "expo-launch-arguments",
   "version": "0.1.0",
-  "description": "AboutGet launch arguments for testing with Detox ",
+  "description": "Get launch arguments for testing with Detox in Expo Managed Apps",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "precommit": "echo \"\"",
     "build": "expo-module build",
     "clean": "expo-module clean",
     "lint": "expo-module lint",
@@ -22,14 +21,9 @@
     "expo-launch-arguments",
     "ExpoLaunchArguments"
   ],
-  "repository": "https://github.com/rbilabs/rGuest",
-  "bugs": {
-    "url": "https://github.com/rbilabs/rGuest/issues"
-  },
-  "author": "Blaine Kasten <bkasten@rbi.com> ()",
+  "repository": "https://github.com/blainekasten/expo-launch-arguments",
+  "author": "Blaine Kasten <blainekasten@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/rbilabs/rGuest#readme",
-  "dependencies": {},
   "devDependencies": {
     "@types/react": "^18.0.25",
     "@types/react-native": "^0.70.6",

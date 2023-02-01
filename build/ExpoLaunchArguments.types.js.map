@@ -1,0 +1,1 @@
+{"version":3,"file":"ExpoLaunchArguments.types.js","sourceRoot":"","sources":["../src/ExpoLaunchArguments.types.ts"],"names":[],"mappings":"","sourcesContent":["export type ExpoLaunchArgumentsModule = {\n  launchArguments: Record<string, any>;\n};\n"]}

@@ -1,6 +1,13 @@
 import { requireNativeModule } from 'expo-modules-core';
 import { ExpoLaunchArgumentsModule } from './ExpoLaunchArguments.types';
 
-// It loads the native module object from the JSI or falls back to
-// the bridge module (from NativeModulesProxy) if the remote debugger is on.
-export default requireNativeModule('ExpoLaunchArguments') as ExpoLaunchArgumentsModule;
+// Safely require the native module.
+// This package is not mission critical enough to crash an app for.
+let module: ExpoLaunchArgumentsModule = { launchArguments: {} };
+try {
+  module = requireNativeModule(
+    'ExpoLaunchArguments',
+  ) as ExpoLaunchArgumentsModule;
+} catch {}
+
+export default module;

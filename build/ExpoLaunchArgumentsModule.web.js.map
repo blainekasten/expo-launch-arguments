@@ -1,0 +1,1 @@
+{"version":3,"file":"ExpoLaunchArgumentsModule.web.js","sourceRoot":"","sources":["../src/ExpoLaunchArgumentsModule.web.ts"],"names":[],"mappings":"AAAA,eAAe;IACb,eAAe,EAAE,EAAE;CACpB,CAAC","sourcesContent":["export default {\n  launchArguments: {},\n};\n"]}

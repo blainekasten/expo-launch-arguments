@@ -15,7 +15,7 @@ class ExpoLaunchArgumentsModule : Module() {
 
     // Sets constant properties on the module. Can take a dictionary or a closure that returns a dictionary.
     Constants(
-      "value" to mapOf()
+      "launchArguments" to mapOf()
     )
 
   }

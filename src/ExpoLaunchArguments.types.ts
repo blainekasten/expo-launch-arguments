@@ -1,4 +1,3 @@
 export type ExpoLaunchArgumentsModule = {
-  value: Record<string, any>;
-  all: any;
+  launchArguments: Record<string, any>;
 };
