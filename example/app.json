@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "expo-launch-arguments-example",
+    "slug": "expo-launch-arguments-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.modules.launcharguments.example"
+    },
+    "android": {
+      "package": "expo.modules.launcharguments.example"
+    }
+  }
+}

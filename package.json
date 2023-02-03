@@ -22,6 +22,7 @@
     "ExpoLaunchArguments"
   ],
   "repository": "https://github.com/blainekasten/expo-launch-arguments",
+  "homepage": "https://github.com/blainekasten/expo-launch-arguments",
   "author": "Blaine Kasten <blainekasten@gmail.com>",
   "license": "MIT",
   "devDependencies": {
