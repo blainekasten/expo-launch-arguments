@@ -1,6 +1,6 @@
 {
   "name": "expo-launch-arguments",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Get launch arguments for testing with Detox in Expo Managed Apps",
   "main": "build/index.js",
   "types": "build/index.d.ts",
