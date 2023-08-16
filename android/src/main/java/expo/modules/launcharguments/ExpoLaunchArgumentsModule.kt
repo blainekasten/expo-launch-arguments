@@ -16,10 +16,6 @@ const val MODULE_NAME = "ExpoLaunchArguments"
 
 class ExpoLaunchArgumentsModule : Module() {
 
-  init {
-        waitForActivity()
-    }
-
     override fun definition() = ModuleDefinition {
         Name(MODULE_NAME)
 
@@ -46,6 +42,8 @@ class ExpoLaunchArgumentsModule : Module() {
     private fun parseIntentExtras(): HashMap<String, Any> {
         val map = HashMap<String, Any>()
 
+        waitForActivity()
+
         var activity = getCurrentActivity()
         if(activity == null) {
           return map
@@ -62,7 +60,7 @@ class ExpoLaunchArgumentsModule : Module() {
     }
 
     private fun getCurrentActivity (): Activity {
-        return appContext.activityProvider?.currentActivity ?: throw CurrentActivityNotFoundException()
+      return appContext.activityProvider?.currentActivity
     }
 
     private fun parseDetoxExtras(map: HashMap<String, Any>, intent: Intent) {
