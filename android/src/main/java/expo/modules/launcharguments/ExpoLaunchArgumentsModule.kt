@@ -59,7 +59,7 @@ class ExpoLaunchArgumentsModule : Module() {
         return map
     }
 
-    private fun getCurrentActivity (): Activity {
+    private fun getCurrentActivity (): Activity? {
       return appContext.activityProvider?.currentActivity
     }
 
