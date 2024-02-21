@@ -8,7 +8,7 @@ jsconfig.json
 
 # Xcode
 #
-ios/build/
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -36,6 +36,8 @@ project.xcworkspace
 .settings
 local.properties
 android.iml
+android/app/libs
+android/keystores/debug.keystore
 
 # Cocoapods
 #
@@ -50,12 +52,6 @@ node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
-
-# BUCK
-buck-out/
-\.buckd/
-android/app/libs
-android/keystores/debug.keystore
 
 # Expo
 .expo/*
